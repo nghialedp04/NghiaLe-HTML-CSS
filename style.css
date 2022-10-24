@@ -237,16 +237,16 @@ span {
     margin-top: 165px;
 }
 
-.quote-right {
-    width: 900px;
+.quote-image {
     position: relative;
 }
 
 .quote-play {
     position: absolute; 
     top: 50%;
+    left: 50%;
     margin-left: 465px;
-    transform: translateY(-50%);
+    transform: translateY(-50%), translateX(-50%);
 }
 
 .quote-left {
@@ -360,12 +360,12 @@ footer{
 
 .footer-contact-info>p {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-text-transform: capitalize;
-color: #B8B8B8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #B8B8B8;
 }
 
 .footer-contact {
@@ -384,3 +384,4 @@ color: #B8B8B8;
     line-height: 24px;
     color: #FFFFFF !important;
 }
+
